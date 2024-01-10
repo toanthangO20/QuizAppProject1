@@ -17,14 +17,14 @@ export default function Main() {
 
     return (
         <div className='container'>
-            <h1 className='title text-light'>Quiz Application</h1>
+            <h1 className='title text-light'>Trắc nghiệm SOICT</h1>
 
             <ol>
-                <li>You will be asked 10 questions one after another.</li>
-                <li>10 points is awarded for the correct answer.</li>
-                <li>Each question has three options. You can choose only one option.</li>
-                <li>You can review and change answers before the quiz finish.</li>
-                <li>The result will be declared at the end of the quiz.</li>
+                <li>Bạn sẽ lần lượt trả lời các câu hỏi trắc nghiệm.</li>
+                <li>Mỗi câu trả lời đúng sẽ nhận được 10 điểm.</li>
+                <li>Mỗi câu hỏi có 4 đáp án. Trong đó chỉ có 1 đáp án đúng.</li>
+                <li>Bạn có thể đổi đáp án các câu hỏi trước khi kết thúc bài kiểm tra.</li>
+                <li>Kết quả sẽ được hiển thị sau khi kết thúc bài kiểm tra.</li>
             </ol>
 
             <form id="form">
