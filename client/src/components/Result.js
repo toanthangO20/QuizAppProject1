@@ -34,31 +34,31 @@ export default function Result() {
 
     return (
         <div className='container'>
-            <h1 className='title text-light'>Quiz Application</h1>
+            <h1 className='title text-light'>Trắc nghiệm SOICT</h1>
 
             <div className='result flex-center'>
                 <div className='flex'>
-                    <span>Username</span>
+                    <span>Tên người dùng</span>
                     <span className='bold'>{userId}</span>
                 </div>
 
                 <div className='flex'>
-                    <span>Total Quiz Points : </span>
+                    <span>Tổng điểm bài kiểm tra : </span>
                     <span className='bold'>{totalPoints || 0}</span>
                 </div>
 
                 <div className='flex'>
-                    <span>Total Questions : </span>
+                    <span>Tổng số câu hỏi : </span>
                     <span className='bold'>{queue.length || 0}</span>
                 </div>
 
                 <div className='flex'>
-                    <span>Total Attempts : </span>
+                    <span>Số câu đã trả lời : </span>
                     <span className='bold'>{attempts || 0}</span>
                 </div>
 
                 <div className='flex'>
-                    <span>Total Earned Points : </span>
+                    <span>Điểm đạt được : </span>
                     <span className='bold'>{earnPoints || 0}</span>
                 </div>
 
